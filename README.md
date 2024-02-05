@@ -20,3 +20,7 @@ Check for the minimum balance, impose penalty if necessary and update the balanc
 <h3>Create a package CIE which has two classes- Student and Internals. The class Student has members like usn, name, sem. The class internals which is a derived class of Student and has an array that stores the internal marks scored in five courses of the current semester of the student. Create another package SEE which has the class External which is a derived class of Student. This class has an array that stores the SEE marks scored in five courses of the current semester of the student. Import the two packages in a file that declares the final marks of n students in all five courses.</h3>
 <h1>7th laboratory Program</h1>
 <h3>Write a program that demonstrates handling of exceptions in inheritance tree. Create a base class called “Father” and derived class called “Son” which extends the base class. In Father class, implement a constructor which takes the age and throws the exception WrongAge( ) when the input age<0. In Son class, implement a constructor that cases both father and son’s age and throws an exception if son’s age is >=father’s age.</h3>
+<h1>8th Laboratory Program</h1>
+<h3>Write a program which creates two threads, one thread displaying “BMS College of
+Engineering” once every ten seconds and another displaying “CSE” once every two
+seconds.</h3>
