@@ -2,38 +2,38 @@ class BMSThread implements Runnable
 {
     public void run() 
 	{
-        while (true) 
+	        while (true) 
 		{ 
-            try 
-			{
-				System.out.println("BMS College of Engineering");
-                Thread.sleep(10000); 
-            } 
+			try 
+				{
+					System.out.println("BMS College of Engineering");
+					Thread.sleep(10000); 
+				} 
 			catch (InterruptedException ie) 
-			{
-                System.out.println("BMSThread is Interrupted");
-            } 
-        }
-    }
+				{
+					System.out.println("BMSThread is Interrupted");
+				}
+		}
+	}
 }
 
 class CSEThread implements Runnable 
 {
     public void run() 
 	{
-        while (true) 
+	        while (true) 
 		{            
-            try 
-			{
-				System.out.println("CSE");
-                Thread.sleep(2000); 
-            } 
+			try 
+				{
+					System.out.println("CSE");
+					Thread.sleep(2000); 
+				} 
 			catch (InterruptedException ie) 
-			{
-                System.out.println("CSEThread is Interrupted");
-            }
-        }
-    }
+				{
+					System.out.println("CSEThread is Interrupted");
+				}
+	        }
+	}
 }
 
 public class Display 
@@ -45,7 +45,6 @@ public class Display
 		
 		bms.start();
 		cse.start();
-        
-    }
+	}
 }
 
