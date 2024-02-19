@@ -24,3 +24,10 @@ Check for the minimum balance, impose penalty if necessary and update the balanc
 <h3>Write a program which creates two threads, one thread displaying “BMS College of
 Engineering” once every ten seconds and another displaying “CSE” once every two
 seconds.</h3>
+<h1>LABORATORY PROGRAM-9</h1>
+<h3>Write a program that creates a user interface to perform integer divisions. The user
+enters two numbers in the text fields, Num1 and Num2. The division of Num1 and
+Num2 is displayed in the Result field when the Divide button is clicked. If Num1 or
+Num2 were not an integer, the program would throw a NumberFormatException. If
+Num2 were Zero, the program would throw an Arithmetic Exception Display the
+exception in a message dialog box. </h3>
